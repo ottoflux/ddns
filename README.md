@@ -27,7 +27,7 @@ WorkingDirectory=/opt/ddns
 # Specify the user to run the script as (best practice)
 User=ddns-user
 
-# Load the secret variables from the protected file
+# Load the secret variables from the protected file - root 0600
 EnvironmentFile=/etc/ddns/secrets.env
 
 # Define environment variables (for configuration)
